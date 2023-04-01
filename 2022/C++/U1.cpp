@@ -83,7 +83,7 @@ void skaiciavimas(int n, int &max_taskai)
     // paiemam pirmo dalyvio taskus kaip maxa
     max_taskai = dalyviai[0].total_taskai;
     // lyginam pirmo dalyvio taskus su likusiais dalyviais
-    // kad rasti diziausia tasku skaiciu
+    // kad rasti didziausia tasku skaiciu
     for(int i=1; i<5; i++)
     {
         if (dalyviai[i].total_taskai > max_taskai)  
