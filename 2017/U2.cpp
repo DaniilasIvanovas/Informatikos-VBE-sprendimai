@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-
+// 
 using namespace std;
 // declarinam funckija
 void skaitymas(int &n);
